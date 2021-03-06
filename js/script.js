@@ -31,3 +31,18 @@ $(function(){
         });
     });
 });
+
+
+//ページ読み込み後の実行プログラム
+window.onload = function() {
+    //ローディング画面をフェードアウト
+    const loader = document.getElementById('loading-wrapper');
+    loader.classList.add('completed');
+  
+    //冒頭アニメーションを再生
+    var media = document.getElementById("op-video");
+  
+    media.currentTime = 0.5;
+    media.play();
+  
+};
