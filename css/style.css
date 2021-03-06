@@ -1015,3 +1015,72 @@ footer{
     }
 
 }
+
+
+
+
+
+/* -------------------------------------- About Page Style -------------------------------------- */
+
+/* --top image-- */
+.sub-top-img{
+    width: 100vw;
+    position: relative;
+}
+
+.sub-top-bg-img{
+    width: 100%;
+}
+
+.sub-top-title{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 5%;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    font-family: serif;
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: 12px;
+}
+
+
+
+
+@media(max-width:1170px){
+    /* --top image-- */
+    .sub-top-title{
+        font-size: 50px;
+        letter-spacing: 12px;
+    }
+}
+
+
+@media(max-width:820px){
+    /* --top image-- */
+    .sub-top-title{
+        font-size: 40px;
+        letter-spacing: 9px;
+    }
+}
+
+
+@media(max-width:420px){
+    /* --top image-- */
+    .sub-top-img{
+        width: 100vw;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .sub-top-bg-img{
+        width: 150%;
+    }
+    
+    .sub-top-title{
+        font-size: 25px;
+        font-weight: 800;
+        letter-spacing: 7px;
+    }
+}
