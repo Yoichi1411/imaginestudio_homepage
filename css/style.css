@@ -1737,7 +1737,7 @@ footer{
     }
 
     .about-sec2-title,.about-sec2-explain{
-        font-size: 7px;
+        font-size: 9px;
         letter-spacing: 0px;
         line-height: 17px;
     }
@@ -1755,7 +1755,7 @@ footer{
     .about-sub3-title{
         font-size: 13px;
         letter-spacing: 4px;
-        width:135px;
+        width:140px;
         border-bottom: 10px solid rgba(226,222,199,1);
     }
 
@@ -1798,7 +1798,7 @@ footer{
     .career-year,.career-explain{
         color: white;
         font-family: sans-serif;
-        font-size: 9px;
+        font-size: 7px;
         font-weight: 100;
         letter-spacing: 1px;
         line-height: 20px;
