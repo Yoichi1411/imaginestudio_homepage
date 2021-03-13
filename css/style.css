@@ -274,7 +274,7 @@ header{
 }
 
 .rotate{
-    transform: rotateY(180deg);
+    transform: rotateY(120deg);
     transition: all 1.5s;
 }
 
