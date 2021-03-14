@@ -274,7 +274,12 @@ header{
 }
 
 .rotate{
-    transform: rotateY(120deg);
+    transform: rotateY(90deg);
+    transition: all 1.5s;
+}
+
+.remove{
+    display: none;
     transition: all 1.5s;
 }
 
@@ -1847,6 +1852,10 @@ footer{
 }
 
 /* --article-wrapper-- */
+.article{
+    width: 100%;
+}
+
 .article-sec{
     width: 100%;
     border-bottom: 1px solid white;
@@ -2652,6 +2661,10 @@ footer{
     font-size: 20px;
     letter-spacing: 2px;
     padding-top: 30px;
+}
+
+.soon{
+    display: none;
 }
 
 

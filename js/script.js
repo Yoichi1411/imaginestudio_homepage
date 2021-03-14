@@ -30,6 +30,39 @@ $(function(){
             }
         });
     });
+
+    //Newsをカテゴリー分け
+    $('.info-btn').click(function(){
+        $('.photo,.interior,.graphic,.web,.blog,.soon').fadeOut();
+        $('.info').fadeIn();
+    });
+
+    $('.photo-btn').click(function(){
+        $('.info,.interior,.graphic,.web,.blog').fadeOut();
+        $('.photo,.soon').fadeIn();
+    });
+
+    $('.interior-btn').click(function(){
+        $('.info,.photo,.graphic,.web,.blog').fadeOut();
+        $('.interior,.soon').fadeIn();
+    });
+
+    $('.graphic-btn').click(function(){
+        $('.info,.photo,.interior,.web,.blog').fadeOut();
+        $('.graphic,.soon').fadeIn();
+    });
+
+    $('.web-btn').click(function(){
+        $('.info,.photo,.interior,.graphic,.blog').fadeOut();
+        $('.web,.soon').fadeIn();
+    });
+
+    $('.blog-btn').click(function(){
+        $('.info,.photo,.interior,.graphic,.web').fadeOut();
+        $('.blog,.soon').fadeIn();
+    });
+
+
 });
 
 
