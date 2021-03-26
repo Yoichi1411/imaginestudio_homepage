@@ -63,6 +63,33 @@ $(function(){
     });
 
 
+    //Workをカテゴリー分け
+    $('#photo').click(function(){
+        $('.movie-work-wrapper,.interior-work-wrapper,.graphic-work-wrapper,.web-work-wrapper').fadeOut();
+        $('.photo-work-wrapper').fadeIn();
+    });
+
+    $('#movie').click(function(){
+        $('.photo-work-wrapper,.interior-work-wrapper,.graphic-work-wrapper,.web-work-wrapper').fadeOut();
+        $('.movie-work-wrapper').fadeIn();
+    });
+
+    $('#interior').click(function(){
+        $('.movie-work-wrapper,.photo-work-wrapper,.graphic-work-wrapper,.web-work-wrapper').fadeOut();
+        $('.interior-work-wrapper').fadeIn();
+    });
+
+    $('#graphic').click(function(){
+        $('.movie-work-wrapper,.interior-work-wrapper,.photo-work-wrapper,.web-work-wrapper').fadeOut();
+        $('.graphic-work-wrapper').fadeIn();
+    });
+
+    $('#web').click(function(){
+        $('.movie-work-wrapper,.interior-work-wrapper,.graphic-work-wrapper,.photo-work-wrapper').fadeOut();
+        $('.web-work-wrapper').fadeIn();
+    });
+
+
 });
 
 
