@@ -89,6 +89,38 @@ $(function(){
         $('.web-work-wrapper').fadeIn();
     });
 
+    //Work拡大表示スライダー
+    $('.work-up-button1').click(function(){
+        $('.photo-slider1').fadeIn();
+    });
+
+    $('.slider-close-button').click(function(){
+        $('.photo-slider1').fadeOut();
+    });
+
+    //Workスライダー切り替え
+    $('.change-btn').click(function() {
+        var $displaySlide = $('.active');
+        $displaySlide.removeClass('active');
+        if ($(this).hasClass('next-btn')) {
+          $displaySlide.next().addClass('active');
+        } else {
+          $displaySlide.prev().addClass('active');
+        }
+        
+        var slideIndex = $('.slide').index($('.active'));
+
+        $('.change-btn').show();
+        
+        if(slideIndex==0){
+          $('.prev-btn').hide();
+        } else if(slideIndex==3){
+          $('.next-btn').hide();
+        }
+        
+      });
+
+
 
 });
 

@@ -2807,6 +2807,82 @@ figcaption {
     background-color: rgba(255,255,255,0.3);
 }
 
+/* photo slider */
+.photo-slider1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    text-align: center;
+    z-index: 999;
+    display: none;
+}
+
+.slider-content{
+    position: absolute;
+    top: 27%;
+}
+
+.slider-close{
+    width: 95%;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.slider-close-button{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.change-btn-wrapper {
+    width: 95%;
+    margin: 20px auto;
+    font-size: 18px;
+}
+  
+.change-btn-wrapper:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+  
+.prev-btn {
+    cursor: pointer;
+    float: left;
+    display:none;
+    color: white;
+    font-weight: 800;
+}
+  
+.next-btn {
+    cursor: pointer;
+    float: right;
+    color: white;
+    font-weight: 800;
+}
+  
+.slides {
+    padding: 0;
+}
+  
+.slide {
+    display: none;
+}
+  
+.active {
+    display: block;
+}
+  
+.slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
 
 
 @media(max-width:1500px){
@@ -3178,9 +3254,9 @@ figcaption {
     }
     
     .work-up-button1{
-        padding: 8px;
+        padding: 10px;
         font-size: 13px;
-        margin-top: 18px;
+        margin-top: 8px;
     }
 }
 
