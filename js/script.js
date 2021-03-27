@@ -100,12 +100,32 @@ $(function(){
     });
 
     //→photo-work2
-    $('.work-up-button2').click(function(){
+    $('.work-up-button1-2').click(function(){
         $('.photo-slider2').fadeIn();
     });
 
     $('.slider-close-button').click(function(){
         $('.photo-slider2').fadeOut();
+    });
+
+    //動画Work1再生制御
+    $('.work-up-button2').click(function(){
+        $('.movie-slider1').fadeIn();
+        document.getElementById("movie-work-1").currentTime=0;
+	    document.getElementById("movie-work-1").play();
+    });
+
+    $('.slider-close-button').click(function(){
+        $('.movie-slider1').fadeOut();
+    });
+
+    //→graphic-work1
+    $('.work-up-button4').click(function(){
+        $('.graphic-slider1').fadeIn();
+    });
+
+    $('.slider-close-button').click(function(){
+        $('.graphic-slider1').fadeOut();
     });
 
     //Workスライダー切り替え
@@ -128,9 +148,7 @@ $(function(){
           $('.next-btn').hide();
         }
         
-      });
-
-
+    });
 
 });
 
