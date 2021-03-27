@@ -2821,7 +2821,8 @@ figcaption {
 
 .slider-content{
     position: absolute;
-    top: 27%;
+    transform: translateY(-50%);
+    top: 50%;
 }
 
 .slider-close{
