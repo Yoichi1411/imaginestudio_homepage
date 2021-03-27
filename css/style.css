@@ -2793,7 +2793,7 @@ figcaption {
     font-weight: 400;
 }
 
-.work-up-button1{
+.work-up-button1,.work-up-button2{
     color: #666666;
     border: 1px solid #666666;
     padding: 15px;
@@ -2804,12 +2804,12 @@ figcaption {
     animation: pitching 1s ease 0s infinite normal both running;
 }
 
-.work-up-button1:hover{
+.work-up-button1:hover,.work-up-button2:hover{
     background-color: rgba(255,255,255,0.3);
 }
 
 /* photo slider */
-.photo-slider1{
+.photo-slider1,.photo-slider2{
     width: 100%;
     height: 100vh;
     background-color: rgba(0,0,0,0.7);
@@ -2843,7 +2843,7 @@ figcaption {
 .change-btn-wrapper {
     width: 95%;
     margin: 20px auto;
-    font-size: 18px;
+    font-size: 25px;
 }
   
 .change-btn-wrapper:after {
@@ -2871,23 +2871,23 @@ figcaption {
 
 @keyframes pitching{
     0%{
-        transform: translateY(-1px);
+        transform: translateY(-1.5px);
     }
 
     25%{
-        transform: translateY(1px);
+        transform: translateY(1.5px);
     }
 
     50%{
-        transform: translateY(-1px);
+        transform: translateY(-1.5px);
     }
 
     75%{
-        transform: translateY(1px);
+        transform: translateY(1.5px);
     }
 
     100%{
-        transform: translateY(-1px);
+        transform: translateY(-1.5px);
     }
 }
   
@@ -2998,7 +2998,7 @@ figcaption {
         font-weight: 400;
     }
     
-    .work-up-button1{
+    .work-up-button1,.work-up-button2{
         padding: 8px;
         font-size: 13px;
         margin-top: 18px;
@@ -3092,7 +3092,7 @@ figcaption {
         font-weight: 400;
     }
     
-    .work-up-button1{
+    .work-up-button1,.work-up-button2{
         padding: 8px;
         font-size: 13px;
         margin-top: 18px;
@@ -3186,7 +3186,7 @@ figcaption {
         font-weight: 400;
     }
     
-    .work-up-button1{
+    .work-up-button1,.work-up-button2{
         padding: 8px;
         font-size: 13px;
         margin-top: 18px;
@@ -3280,10 +3280,17 @@ figcaption {
         font-weight: 400;
     }
     
-    .work-up-button1{
+    .work-up-button1,.work-up-button2{
         padding: 10px;
         font-size: 13px;
         margin-top: 8px;
+    }
+
+    /* slider */
+    .slider-content{
+        position: absolute;
+        transform: translateY(-50%);
+        top: 45%;
     }
 }
 

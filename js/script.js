@@ -90,12 +90,22 @@ $(function(){
     });
 
     //Work拡大表示スライダー
+    //→photo-work1
     $('.work-up-button1').click(function(){
         $('.photo-slider1').fadeIn();
     });
 
     $('.slider-close-button').click(function(){
         $('.photo-slider1').fadeOut();
+    });
+
+    //→photo-work2
+    $('.work-up-button2').click(function(){
+        $('.photo-slider2').fadeIn();
+    });
+
+    $('.slider-close-button').click(function(){
+        $('.photo-slider2').fadeOut();
     });
 
     //Workスライダー切り替え
