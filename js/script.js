@@ -128,6 +128,60 @@ $(function(){
         $('.movie-slider2').fadeOut();
     });
 
+    //動画Work3再生制御
+    $('.work-up-button2-3').click(function(){
+        $('.movie-slider3').fadeIn();
+    });
+
+    $('.slider-close-button').click(function(){
+        $('.movie-slider3').fadeOut();
+    });
+
+    //動画Work4再生制御
+    $('.work-up-button2-4').click(function(){
+        $('.movie-slider4').fadeIn();
+    });
+
+    $('.slider-close-button').click(function(){
+        $('.movie-slider4').fadeOut();
+    });
+
+    //動画Work5再生制御
+    $('.work-up-button2-5').click(function(){
+        $('.movie-slider5').fadeIn();
+    });
+
+    $('.slider-close-button').click(function(){
+        $('.movie-slider5').fadeOut();
+    });
+
+    //動画Work6再生制御
+    $('.work-up-button2-6').click(function(){
+        $('.movie-slider6').fadeIn();
+    });
+
+    $('.slider-close-button').click(function(){
+        $('.movie-slider6').fadeOut();
+    });
+
+    //動画Work7再生制御
+    $('.work-up-button2-7').click(function(){
+        $('.movie-slider7').fadeIn();
+    });
+
+    $('.slider-close-button').click(function(){
+        $('.movie-slider7').fadeOut();
+    });
+
+    //動画Work8再生制御
+    $('.work-up-button2-8').click(function(){
+        $('.movie-slider8').fadeIn();
+    });
+
+    $('.slider-close-button').click(function(){
+        $('.movie-slider8').fadeOut();
+    });
+
     //→graphic-work1
     $('.work-up-button4').click(function(){
         $('.graphic-slider1').fadeIn();
