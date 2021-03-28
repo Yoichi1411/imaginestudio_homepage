@@ -119,6 +119,15 @@ $(function(){
         $('.movie-slider1').fadeOut();
     });
 
+    //動画Work2再生制御
+    $('.work-up-button2-2').click(function(){
+        $('.movie-slider2').fadeIn();
+    });
+
+    $('.slider-close-button').click(function(){
+        $('.movie-slider2').fadeOut();
+    });
+
     //→graphic-work1
     $('.work-up-button4').click(function(){
         $('.graphic-slider1').fadeIn();
