@@ -3955,6 +3955,258 @@ figcaption {
 }
 
 
+/* -------------------------------------- Contact Page Style -------------------------------------- */
+.contact-sub1-wrapper{
+    padding: 70px 0;
+    position: relative;
+    z-index: 5;
+    background-color: #9E9E9F;
+}
+
+.contact-sub1-title{
+    font-family: serif;
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 7px;
+    width:480px;
+    border-bottom: 20px solid rgba(226,222,199,1);
+}
+
+.form-item{
+    margin-top: 25px;
+}
+
+.form-item span,.form-attention-text span{
+    color: rgb(190, 107, 107);
+}
+
+.form-error{
+    color: rgb(255, 83, 83);
+    font-size: 15px;
+}
+
+.formrun label{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.formrun input,.formrun textarea{
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    opacity: 0.5;
+    padding: 7px;
+}
+
+.formrun textarea{
+    height: 150px;
+}
+
+.form-attention-text{
+    color: white;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.form-button{
+    background-color: rgba(226,222,199,0.7);
+    color: #666666;
+    font-family: serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 50px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.form-button:hover{
+    background-color: rgba(226,222,199,1);
+}
+
+
+@media(max-width:1500px){
+    .contact-sub1-wrapper{
+        padding: 70px 0;
+    }
+    
+    .contact-sub1-title{
+        font-size: 35px;
+        letter-spacing: 7px;
+        width:420px;
+        border-bottom: 20px solid rgba(226,222,199,1);
+    }
+    
+    .form-item{
+        margin-top: 25px;
+    }
+    
+    .form-error{
+        font-size: 15px;
+    }
+    
+    .formrun label{
+        font-size: 25px;
+    }
+    
+    .formrun input,.formrun textarea{
+        padding: 7px;
+    }
+    
+    .formrun textarea{
+        height: 150px;
+    }
+    
+    .form-attention-text{
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    
+    .form-button{
+        font-size: 20px;
+        padding: 15px 50px;
+        margin-top: 25px;
+    }
+}
+
+@media(max-width:1170px){
+    .contact-sub1-wrapper{
+        padding: 70px 0;
+    }
+    
+    .contact-sub1-title{
+        font-size: 23px;
+        letter-spacing: 7px;
+        width:300px;
+        border-bottom: 15px solid rgba(226,222,199,1);
+    }
+    
+    .form-item{
+        margin-top: 25px;
+    }
+    
+    .form-error{
+        font-size: 13px;
+    }
+    
+    .formrun label{
+        font-size: 20px;
+    }
+    
+    .formrun input,.formrun textarea{
+        padding: 7px;
+    }
+    
+    .formrun textarea{
+        height: 150px;
+    }
+    
+    .form-attention-text{
+        margin-top: 25px;
+        font-size: 17px;
+    }
+    
+    .form-button{
+        font-size: 20px;
+        padding: 15px 50px;
+        margin-top: 25px;
+    }
+}
+
+@media(max-width:820px){
+    .contact-sub1-wrapper{
+        padding: 30px 0;
+    }
+    
+    .contact-sub1-title{
+        font-size: 16px;
+        letter-spacing: 7px;
+        width:230px;
+        border-bottom: 10px solid rgba(226,222,199,1);
+    }
+    
+    .form-item{
+        margin-top: 18px;
+    }
+    
+    .form-error{
+        font-size: 12px;
+    }
+    
+    .formrun label{
+        font-size: 15px;
+    }
+    
+    .formrun input,.formrun textarea{
+        padding: 5px;
+    }
+    
+    .formrun textarea{
+        height: 120px;
+    }
+    
+    .form-attention-text{
+        margin-top: 25px;
+        font-size: 13px;
+    }
+    
+    .form-button{
+        font-size: 18px;
+        padding: 10px 40px;
+        margin-top: 25px;
+    }
+}
+
+@media(max-width:420px){
+    .contact-sub1-wrapper{
+        padding: 30px 0;
+    }
+    
+    .contact-sub1-title{
+        font-size: 13px;
+        letter-spacing: 4px;
+        width:170px;
+        border-bottom: 7px solid rgba(226,222,199,1);
+    }
+    
+    .form-item{
+        margin-top: 13px;
+    }
+    
+    .form-error{
+        font-size: 10px;
+    }
+    
+    .formrun label{
+        font-size: 13px;
+    }
+    
+    .formrun input,.formrun textarea{
+        padding: 1px;
+    }
+    
+    .formrun textarea{
+        height: 100px;
+    }
+    
+    .form-attention-text{
+        margin-top: 18px;
+        font-size: 10px;
+    }
+    
+    .form-button{
+        font-size: 15px;
+        padding: 7px 35px;
+        margin-top: 20px;
+    }
+}
+
+
+
 
 
 

@@ -12,6 +12,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="image/favicon.jpg">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
   </head>
 
   <body>
@@ -50,9 +51,64 @@
         <h1 class="sub-top-title">CONTACT</h1>
     </div>
 
-    <div class="coming-wrapper">
+    <div class="contact-sub1-wrapper">
         <div class="container">
-            <p class="coming-soon">Coming Soon.....</p>
+            <h1 class="contact-sub1-title">お問い合わせフォーム</h1>
+            <!-- class, action, methodを変更しないでください -->
+            <form class="formrun" action="https://form.run/api/v1/r/xqk5k48idi5jmrp88bnoxnc6" method="post">
+                <!-- ↓自由に要素を追加・編集することができます -->
+                <div class="form-item">
+                    <label>お名前<span>*</span></label>
+                    <input name="お名前" type="text"　data-formrun-required>
+                    <div class="form-error" data-formrun-show-if-error="お名前">お名前を入力してください</div>
+                </div>
+
+                <div class="form-item">
+                    <label>お名前(ふりがな)<span>*</span></label>
+                    <input name="お名前(ふりがな)" type="text"　data-formrun-required>
+                    <div class="form-error" data-formrun-show-if-error="お名前(ふりがな)">ふりがなを入力してください</div>
+                </div>
+
+                <div class="form-item">
+                    <label>会社名(※一般のお客様は「一般」とご記入下さい)<span>*</span></label>
+                    <input name="会社名" type="text"　data-formrun-required>
+                    <div class="form-error" data-formrun-show-if-error="会社名">会社名を入力してください</div>
+                </div>
+  
+                <div class="form-item">
+                    <label>メールアドレス<span>*</span></label>
+                    <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+                    <div class="form-error" data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+                </div>
+
+                <div class="form-item">
+                    <label>電話番号</label>
+                    <input name="会社名" type="text">
+                </div>
+  
+                <div class="form-item">
+                    <label>お問い合わせ内容<span>*</span></label>
+                    <textarea name="お問い合わせ内容" data-formrun-required></textarea>
+                    <div class="form-error" data-formrun-show-if-error="お問い合わせ内容">お問い合わせ内容を入力してください</div>
+                </div>
+  
+                <!-- ボット投稿をブロックするためのタグ -->
+                <div class="_formrun_gotcha">
+                    <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+                    <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                    <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+                </div>
+
+                <div class="form-attention-text">
+                    <p>
+                        ※ 回答は即日～1営業日以内にご返答させて頂きます。<br>
+                        ※「<span>*</span>」の付いている項目は必須項目となりますので、必ず入力をお願いいたします。<br>
+                        ※ お問い合わせ内容によっては回答できない場合もございますのでご了承下さい。
+                    </p>
+                </div>
+  
+                <button class="form-button" type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中..." style="color:#666666;">送信</button>
+            </form>
         </div>
     </div>
 
